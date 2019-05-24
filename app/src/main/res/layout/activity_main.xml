@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mycontainer"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050401"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/chnglocation"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btncurrent"
+                android:layout_width="175dp"
+                android:layout_height="25dp"
+                android:background="#131116"
+                android:text="click to see your location"
+                android:textColor="#fff"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvlocation"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:text="Uttam Nagar"
+                android:textColor="#e6e2d8"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cartbtn"
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_shopping_cart_black_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#050401"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btncatogory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="265dp"
+
+            android:layout_height="wrap_content"
+            android:background="#e6e2d8"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/searchEditText"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#e6e2d8"
+                    android:hint="Search for products" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/searchicon"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#e6e2d8"
+                    android:src="@drawable/ic_search_black_24dp" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+    android:padding="4dp"
+    android:background="#ede9df"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:orientation="horizontal">
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_attach_money_black_24dp"
+        android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:id="@+id/cashback"
+          android:text="40% CASHBACK ON 1ST ORDER"
+            android:background="#ede9df"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="10dp"
+             />
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@drawable/ic_shopping_cart_black_24dp"
+        android:background="#2e2306"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:textSize="10dp"
+        android:text="CASH oN DELIVERY"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#ede9df"
+        />
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@drawable/ic_directions_run_black_24dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:text="DOORSTEP RETURN"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:background="#ede9df"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="20dp"
+            android:text="Best Selling Items"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnseeall"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="see all"
+            android:background="#e4e6ba"
+            android:textColor="#d96e30" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@drawable/card">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:cropToPadding="true"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:src="@drawable/company_logo"-->
+
+            <!--android:textColor="#cf0452" />-->
+    <!--</LinearLayout>-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainrecycler"
+        android:background="@drawable/gradient"/>
+
+</LinearLayout>

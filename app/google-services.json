@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207814138185",
+    "firebase_url": "https://myfoodapp-7b2d8.firebaseio.com",
+    "project_id": "myfoodapp-7b2d8",
+    "storage_bucket": "myfoodapp-7b2d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207814138185:android:2acef3901e97412a",
+        "android_client_info": {
+          "package_name": "com.example.groffersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207814138185-cusa9bp0rpnp5372nredotuovnk9u69p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.groffersapp",
+            "certificate_hash": "8cff96e5e8b61cd5acff0d1e0f3e7268c2dda4a2"
+          }
+        },
+        {
+          "client_id": "207814138185-hqlcs9b3en1f862c1sofk37r4920pb82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaVB5BIxAk6UEWI2EXhqT1tB9vKsWCOMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207814138185-hqlcs9b3en1f862c1sofk37r4920pb82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Cart">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img1"
+        android:layout_width="203dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:alpha="0.6"
+        android:scaleType="fitXY"
+        android:src="@drawable/mycart" />
+
+    <Button
+        android:id="@+id/btnitems"
+        android:layout_width="258dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#EC9D55"
+        android:gravity="center"
+        android:text="click to see your cart Items "
+        android:textColor="#170a03"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="305dp"
+        android:layout_height="216dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#009688"
+        android:gravity="center"
+        android:text="Your favourite items are just a click away"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/buttonshop"
+        android:layout_width="205dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/buttondsn"
+        android:paddingVertical="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Start Shopping"
+        android:textColor="#181615"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

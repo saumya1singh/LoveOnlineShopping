@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    tools:context=".Welcome">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:src="@mipmap/groc"/>
+        <ImageView
+            android:src="@drawable/frame"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="We Bring Your grocery At Your Doorstep"
+        android:textColor="#1D33AC"
+
+        android:textSize="21dp"
+        android:textStyle="bold" />
+</LinearLayout>

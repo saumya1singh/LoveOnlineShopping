@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="129dp"
+    android:orientation="horizontal">
+    <android.support.v4.widget.CircleImageView
+        android:id="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="128dp"
+       android:src="@drawable/company_logo"
+        android:background="#e6e8c8" />
+
+    <LinearLayout
+        android:layout_width="116dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Rs.45"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Maggi Masala"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/amount"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="4X70 grms"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:textSize="16dp"
+        android:text="add"
+        android:layout_width="92dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttondsn" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img2"
+            android:layout_width="150dp"
+            android:layout_height="128dp"
+android:src="@drawable/company_logo"
+            android:background="#e6e8c8" />
+
+        <LinearLayout
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/price2"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Rs.45"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sugar"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/amount2"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="4X70 grms"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:text="add"
+            android:layout_width="92dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttondsn" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img3"
+            android:layout_width="150dp"
+            android:layout_height="128dp"
+android:src="@drawable/company_logo"
+            android:background="#e6e8c8" />
+
+        <LinearLayout
+
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/price3"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Rs.45"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tata-Salt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/amount3"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="4X70 grms"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:text="add"
+            android:layout_width="92dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttondsn" />
+    </LinearLayout>
+
+</LinearLayout>

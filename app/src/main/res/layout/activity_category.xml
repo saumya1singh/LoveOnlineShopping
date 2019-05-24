@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:background="@drawable/card"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#120f03"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="All Categories"
+            android:textColor="#dbd3b2"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="42dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="60dp"
+            android:id="@+id/btncart"
+            android:src="@drawable/ic_shopping_cart_black_24dp" />
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+
+        android:layout_width="match_parent"
+        android:layout_height="702dp"
+        android:background="@drawable/card"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

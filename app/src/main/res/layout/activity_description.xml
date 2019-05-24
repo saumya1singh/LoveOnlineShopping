@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    tools:context=".Description">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="372dp"
+        android:layout_height="218dp"
+        android:layout_gravity="center"
+        android:background="@drawable/g"
+        android:scaleType="fitCenter"></android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttondsn"
+        android:gravity="center"
+        android:text="SNAIL Advanced Face Cream"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="18% OFF"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tvamount"
+        android:layout_width="96dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttondsn"
+        android:text="Rs.88"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvprice"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card"
+        android:gravity="center"
+        android:text="  DESCRIPTION
+        products help bring out the best in every meal. Quick and easy solutions - like bouillons, soups, seasonings and sauces - to aid cooking and add flavour.
+
+Simply good
+This iconic brand is on a mission to champion the goodness of home cooking, renewing its global product portfolio with ingredients that people are familiar with, like those they might find in their kitchen cupboard.
+That means more vegetables and original flavours from vegetables, herbs and spices, grains and other nutrient-rich ingredients.
+"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btncart"
+        android:layout_width="189dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttondsn"
+        android:text="Confirm"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".SecondCategory">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+    android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/item1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/img1"
+                android:layout_width="116dp"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/x"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Biscuits"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="127dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttondsn"
+                android:text="UPTO 53% OFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/item2"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="116dp"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/namkeen"
+android:id="@+id/img2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Namkeen "
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="127dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttondsn"
+                android:text="UPTO 62% OFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/item3"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="111dp"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/choc"
+                android:text="@string/shampoo"
+                android:id="@+id/img3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Choclate"
+                android:textSize="17dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="127dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttondsn"
+                android:text="UPTO 47% OFF" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/item4"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/sweets"
+                android:text="@string/shampoo"
+                android:id="@+id/img4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Sweets"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="127dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttondsn"
+                android:text="UPTO 53% OFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item5"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/chips"
+                android:text="@string/shampoo"
+                android:id="@+id/img5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Chips"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="127dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttondsn"
+                android:text="UPTO 49% OFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item6"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/cooki"
+                android:text="@string/shampoo"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Cookie"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="127dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttondsn"
+                android:text="UPTO 53% OFF" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

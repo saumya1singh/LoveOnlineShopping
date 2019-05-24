@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/card"
+    android:orientation="vertical"
+    tools:context=".CategoriesOfItems.UpdatedCategory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/personalcare"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="40"
+            android:scaleType="fitXY"
+            android:src="@drawable/personalcare" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:background="#E9A674"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:text="up to 69% off"
+                android:textColor="#DA815E"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="PERSONAL CARE"
+                android:textColor="#171206"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Personal care Best Items,Bath and
+  Body,Hair Care,Skin Care , Oral...."
+                android:textColor="#585754"
+
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Breakfast"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="40"
+            android:scaleType="fitXY"
+            android:src="@drawable/breakfastandsnacks" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:background="#DFA376"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:text="up to 53% off"
+                android:textColor="#E07C57"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="BREAKFAST AND SNACKS"
+                android:textColor="#171206"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Beverages  Best Items, Choclates  and
+  Snacks, Nmakeen,  Cookies , Tea...."
+                android:textColor="#585754"
+
+                android:textSize="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/fragcontainer"
+        android:layout_width="match_parent"
+        android:layout_margin="9dp"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>
